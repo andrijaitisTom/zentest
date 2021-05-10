@@ -7,7 +7,7 @@
         "oomphinc/composer-installers-extender":"2.0.0"
     },
     "extra": {
-         "class": "spectrocoin"
+         "class": "spectrocoin",
         "installer-types": ["library"],
         "installer-paths": {
             "sc_zencart/commerce_spectrocoin_zencart": ["htdocs/zencart"],
