@@ -1,0 +1,16 @@
+{
+    "name": "sc_zencart/commerce_spectrocoin_zencart",
+    "description": "accept bitcoin payments in your zencart project",
+    "type": "composer-plugin",
+    "require": {
+        "composer/installers": "^1.11",
+        "oomphinc/composer-installers-extender":"^1.1"
+    },
+    "extra": {
+        "installer-types": ["library"],
+        "installer-paths": {
+            "sc_zencart/commerce_spectrocoin_zencart": ["htdocs/zencart"],
+            "htdocs/zencart/{$name}/": ["type:library"]
+        }
+    }
+}
