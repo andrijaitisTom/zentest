@@ -3,6 +3,7 @@
     "description": "accept bitcoin payments in your zencart project",
     "type": "composer-plugin",
     "require": {
+         "composer/installers": "*",
         "oomphinc/composer-installers-extender":"2.0.0"
     },
     "extra": {
